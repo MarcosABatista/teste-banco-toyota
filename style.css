@@ -1,0 +1,122 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 1.3rem 'DM Sans', sans-serif;
+  color: rgb(105, 102, 102);
+  background: white;
+}
+h1 {
+  font: 700 1.3rem 'pippins', sans-serif;
+  color: red;
+}
+
+/*====== main ======*/
+#header img {
+  width: 100%;
+}
+#lembrar {
+  margin: 3rem 4rem 1rem;
+}
+.lembre {
+  font: 700 1.1rem 'DM Sans', sans-serif;
+  text-align: center;
+}
+.lembre span {
+  color: rgb(255, 0, 0);
+  font: 700 1.1rem 'DM Sans', sans-serif;
+}
+.dividir {
+  margin-top: 0.5rem;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-top: 3px solid red;
+}
+#lupa {
+  margin: 3rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+#lupa .image {
+  margin-right: 1.5rem;
+}
+#lupa .text {
+  font: 500 1.1rem 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+#section {
+  margin: 3rem 3rem;
+}
+#section h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.button {
+  font-size: 1.2rem;
+  margin: 2rem;
+  background: red;
+  border-radius: 2rem;
+  padding: 10px;
+}
+#section .logo {
+  display: flex;
+  justify-content: center;
+}
+#section .logo img {
+  margin: 0 2rem;
+}
+/*====== footer ======*/
+#rodape {
+  width: 100%;
+  background: rgb(238, 236, 236);
+}
+#rodape .subrodape {
+  font: 500 1rem 'poppins', sans-serif;
+  text-align: center;
+  padding: 1rem 0;
+}
+#col {
+  display: flex;
+  justify-content: center;
+}
+.colunas {
+  margin: 0.5rem;
+}
+.subtitle {
+  font: 700 0.5rem 'DM Sans', sans-serif;
+}
+#rodape .text {
+  font: 500 0.5rem 'DM Sans', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+/* responsivo */
+@media (min-width: 950px) {
+  #home {
+    display: flex;
+  }
+  #lembrar {
+  }
+  #header img {
+    width: 50vw;
+  }
+  #rodape .subrodape {
+    font: 500 1.5rem 'poppins', sans-serif;
+  }
+  .colunas {
+    margin: 0.7rem;
+  }
+  .subtitle {
+    font: 700 0.7rem 'DM Sans', sans-serif;
+  }
+  #rodape .text {
+    font: 500 0.7rem 'DM Sans', sans-serif;
+  }
+}
