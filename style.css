@@ -57,13 +57,18 @@ h1 {
 a {
   text-decoration: none;
   color: white;
+  font: 700 1.2rem 'DM Sans', sans-serif;
+}
+.botao {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
 }
 .button {
   font-size: 1.2rem;
-  margin: 2rem;
   background: red;
   border-radius: 2rem;
-  padding: 10px;
+  padding: 10px 100px;
 }
 #section .logo {
   display: flex;
